@@ -7,7 +7,7 @@ https://github.com/xternalz/WideResNet-pytorch
 
 History
 -------
-DATE       | DESCRIPTION                         | NAME              | Organization |
+DATE       | DESCRIPTION                         | NAME              | ORGANIZATION |
 21/07/2019 | arranged code to add penultim_layer | Nikolaos Gkalelis | CERTH-ITI    |
 """
 
