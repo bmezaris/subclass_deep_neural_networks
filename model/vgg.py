@@ -8,8 +8,8 @@ https://github.com/pytorch/vision/blob/master/torchvision/models/vgg.py
 
 History
 -------
-DATE       | DESCRIPTION    | NAME              | Organization |
-21/07/2019 | first creation | Nikolaos Gkalelis | CERTH-ITI    |
+DATE       | DESCRIPTION                         | NAME              | Organization |
+21/07/2019 | arranged code to add penultim_layer | Nikolaos Gkalelis | CERTH-ITI    |
 """
 
 import torch
