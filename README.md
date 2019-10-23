@@ -23,6 +23,7 @@ python notebook.py --dataset svhn --model vgg16 --cutout --length 20 --subclass 
 ## License and Citation
 
 This code is provided for academic, non-commercial use only. If you find this code useful in your work, please cite the following publication where this approach is described:
+
 N. Gkalelis, V. Mezaris, "Subclass deep neural networks: re-enabling neglected classes in deep network training for multimedia classification", Proc. 26th Int. Conf. on Multimedia Modeling (MMM2020), Daejeon, Korea, Jan. 2020.
 
 Bibtex:
