@@ -8,8 +8,8 @@ https://github.com/uoguelph-mlrg/Cutout/blob/master/util/cutout.py
 
 History
 -------
-DATE       | DESCRIPTION    | NAME              | Organization |
-           |                |                   | 
+DATE       | DESCRIPTION    | NAME              | ORGANIZATION |
+           |                |                   |              |
 """
 
 
