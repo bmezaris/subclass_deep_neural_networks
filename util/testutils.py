@@ -3,7 +3,7 @@ Utilization functions for testing the SDNN.
 
 History
 -------
-DATE       | DESCRIPTION    | NAME              | Organization |
+DATE       | DESCRIPTION    | NAME              | ORGANIZATION |
 21/07/2019 | first creation | Nikolaos Gkalelis | CERTH-ITI    |
 """
 
