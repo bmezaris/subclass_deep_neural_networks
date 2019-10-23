@@ -1,5 +1,5 @@
 """
-Utilization function for creating subclasses.
+Utilization functions for creating subclasses.
 
 History
 -------
