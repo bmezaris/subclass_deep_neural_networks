@@ -17,9 +17,9 @@ def ClassSigmoidCrossEntropyLoss(predictions_sigmoid, float_labels_class_one_hot
     """
 
     epsilon = 10e-6
-    onesTorchCuda = 1. # exploit broadcasting
+    onesMat = 1.
     cross_entropy_loss = float_labels_class_one_hot * torch.log(predictions_sigmoid + epsilon) + (
-            onesTorchCuda - float_labels_class_one_hot) * torch.log( onesTorchCuda - predictions_sigmoid + epsilon)
+            onesMat - float_labels_class_one_hot) * torch.log( onesMat - predictions_sigmoid + epsilon)
     cross_entropy_loss = - cross_entropy_loss
     return torch.mean(torch.sum(cross_entropy_loss, dim=1))
 
