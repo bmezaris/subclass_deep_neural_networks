@@ -8,7 +8,7 @@ Multimedia Modeling (MMM2020), Daejeon, Korea, Jan. 2020.
 
 History
 -------
-DATE       | DESCRIPTION    | NAME              | Organization |
+DATE       | DESCRIPTION    | NAME              | ORGANIZATION |
 21/07/2019 | first creation | Nikolaos Gkalelis | CERTH-ITI    |
 """
 
