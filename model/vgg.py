@@ -8,7 +8,7 @@ https://github.com/pytorch/vision/blob/master/torchvision/models/vgg.py
 
 History
 -------
-DATE       | DESCRIPTION                         | NAME              | Organization |
+DATE       | DESCRIPTION                         | NAME              | ORGANIZATION |
 21/07/2019 | arranged code to add penultim_layer | Nikolaos Gkalelis | CERTH-ITI    |
 """
 
