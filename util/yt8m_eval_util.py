@@ -31,6 +31,20 @@ import numpy
 from tensorflow.python.platform import gfile
 
 
+def CrossEntropyLoss(predictions, labels):
+  """ CrossEntropyLoss: Sigmoid cross-entropy loss.
+      :param predictions: N x S array of predictions; N: number of training observations, S: number of subclasses
+      :param labels: N x S array with one hot subclass vector at each row
+      :return: cross entropy loss: scalar value
+  """
+
+  epsilon = 10e-6
+  float_labels = tf.cast(labels, tf.float32)
+  cross_entropy_loss = float_labels * tf.log(predictions + epsilon) + (
+          1 - float_labels) * tf.log(1 - predictions + epsilon)
+  cross_entropy_loss = tf.negative(cross_entropy_loss)
+  return tf.reduce_sum(cross_entropy_loss, 1)
+
 def flatten(l):
   """Merges a list of lists into a single list. """
   return [item for sublist in l for item in sublist]
