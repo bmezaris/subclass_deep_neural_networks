@@ -10,6 +10,10 @@ We propose a new criterion for identifying the so-called "neglected" classes dur
 
 To run the code use Pytorch 1.1.0 and Tensorflow 1.13.1 or later.
 
+## Updates
+
+Code for the creation of subclasses in Tensorflow is coming soon!
+
 ## Usage
 
 To run the code for the different datasets and networks use the corresponding settings described in the paper. For instance, for cifar10, cifar100, and svhn with vgg16 use:
